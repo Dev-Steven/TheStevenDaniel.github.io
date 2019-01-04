@@ -1,5 +1,5 @@
 function goHome() {
-    url = "file:///Users/stevenchung/Documents/GitHub/TheStevenDaniel.github.io/index.html";
+    url = "https://thestevendaniel.github.io";
    window.location=url;
 /*"file:///Users/stevenchung/Desktop/HTML%20Project/index.html#home"*/
 }
