@@ -1,6 +1,7 @@
 function goHome() {
-    url = "file:///Users/stevenchung/Desktop/HTML%20Project/index.html#home";
+    url = "file:///Users/stevenchung/Documents/GitHub/TheStevenDaniel.github.io/index.html";
    window.location=url;
+/*"file:///Users/stevenchung/Desktop/HTML%20Project/index.html#home"*/
 }
 
 function goIG() {
