@@ -14,6 +14,11 @@ function goFB() {
     window.open(url);
 }
 
+function golinkedin() {
+    url = "https://www.linkedin.com/in/steven-chung-4174b9179/";
+    window.open(url);
+}
+
 function goResume() {
     url = "Resume.pdf";
     window.open(url);
