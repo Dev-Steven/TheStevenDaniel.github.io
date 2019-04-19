@@ -1,5 +1,11 @@
+function goHome() {
+    url = "https://thestevendaniel.github.io";
+   window.location=url;
+/*"file:///Users/stevenchung/Desktop/HTML%20Project/index.html#home"*/
+}
+
 function goIG() {
-    url = "https://www.instagram.com/steven____daniel/?hl=en";
+    url = "https://www.instagram.com/steven_daniel96/?hl=en";
     window.open(url);
 }
 
@@ -13,21 +19,7 @@ function goLI() {
     window.open(url);
 }
 
-// function hamburgerFunction(x) {
-//   x.classList.toggle("change");
-// }
-
-function hamburgerFunction(x) {
-  // x.classList.toggle("change");
-  document.getElementById("links").classList.toggle("show");
-}
-
-window.onclick = function(e) {
-  if (!e.target.matches('.hamburger')) {
-  var links = document.getElementById("links");
-    if (links.classList.contains('show')) {
-        links.classList.remove('show');
-        links.classList.toggle('change');
-    }
-  }
+function goResume() {
+    url = "Resume.pdf";
+    window.open(url);
 }
